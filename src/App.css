@@ -1,0 +1,103 @@
+.caro-1{
+    position: absolute;
+    top: 40%;
+}
+.minihead,.customer{
+    color : rgb(119, 177, 34);
+}
+.product{
+    background-color:#c4c1c1;
+}
+
+
+#col2{
+   background-image: url('/public/Images/background/7.jpg');
+   background-position: 100% 100%;
+   background-size:contain;
+   background-attachment: fixed;
+}
+.hot{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 9;
+    padding: 0 12px;
+    border-radius: 3px;
+    background-color: #23c39f;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+    height: 20px;
+    display: inline-block;
+    color: #ffffff;
+}
+.pr{
+    height: 100%;
+    width: 100%;
+}
+.sale{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 9;
+    padding: 0 12px;
+    border-radius: 3px;
+    background-color:#dc3545;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 20px;
+    height: 20px;
+    display: inline-block;
+    color: #ffffff;
+}
+.product3{
+    height:90vh;
+    background-image: linear-gradient(to right, rgba(12, 12, 12, 0.652), rgba(0, 0, 0, 0.548)),url('/public/Images/background/8.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.chicken{
+    padding: 5%;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+}
+.chicken:hover{
+    box-shadow: 1px 3px 3px black;
+    transform: translate(2px);
+}
+.news{
+    height: 90vh;
+    background-image: linear-gradient(to right,rgba(12,12,12,0.6),rgba(0,0,0,0.5)),url('/public/Images/background/15.jpg');
+    background-attachment: fixed;
+}
+.box1{
+    box-shadow: 2px 2px  4px black;
+}
+.footer{
+    margin-top: 4%;
+    height: 100%;
+    background-image:linear-gradient(rgba(12, 12, 12, 0.5),rgba(12, 12, 0, 0.849)), url('/public/Images/background/3.jpg');
+    background-size: cover;
+}
+
+
+
+
+/* .carousel-image{
+    background: linear-gradient(to bottom, rgba(18, 18, 18, 0.803), rgba(21, 21, 21, 0.6));
+} */
+
+@media screen and (min-width: 768px){
+   .product3{
+     height: 60vh;
+   }
+   .news{
+    height: 60vh;
+   }
+   .footer{
+    height: 70vh;
+   }
+}
